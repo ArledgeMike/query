@@ -1,0 +1,65 @@
+.query-builder .rule-filter-container > select{display:none;}
+input.activity, input.dimension{
+	margin-right:15px;
+}
+.activity + p{
+	display:inline;
+	margin-right:15px;
+}
+.query-builder .rule-container > div{
+	
+}
+
+.query-builder .rule-container .rule-filter-container{
+	display: inline-block;
+	width: 97%;
+	margin-bottom: 10px;
+}
+.query-builder .rule-container .attribute_container{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.query-builder .rule-container .rule-filter-container.person{
+	display:inline-block;
+	margin-bottom: 10px;
+	width:auto;
+}
+.query-builder .rules-group-container, .query-builder .rule-container, .query-builder .rule-placeholder{
+	padding: 10px;
+	margin: 0px;
+}
+.query-builder .rule-container .rule-header{
+	position:absolute;
+	top:12px;
+	right:10px;
+}
+.query-builder .rule-container .rule-filter-container, .query-builder .rule-container .rule-operator-container, .query-builder .rule-container .rule-value-container, .query-builder .error-container, .query-builder .drag-handle{
+vertical-align:baseline;
+}
+
+.query-builder .rule-container{
+	padding-left:35px;
+	padding-right: 80px;
+	margin-bottom:0px;
+	padding-bottom: 0px;
+}
+ .rule-container input[type=text]{
+	 height:30px;
+ }
+.attribute_container{
+	display:inline;
+}
+.attribute_container p{
+	display:inline;
+	margin-right:15px;
+}
+.query-builder .drag-handle{
+	width:25px;
+	height: 100%;
+	background-color:lightgray;
+	margin: 0px;
+	position: absolute;
+	left: 0px;
+	padding: 0px;
+	top: 0px;
+}
